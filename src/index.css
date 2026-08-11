@@ -1,0 +1,58 @@
+:root {
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --bg-app: #f4f6f9;
+  --bg-card: #ffffff;
+  --border-radius-sm: 8px;
+  --border-radius-md: 12px;
+  --border-radius-lg: 16px;
+  --border-radius-xl: 24px;
+
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-light: #94a3b8;
+
+  --color-primary: #2563eb;
+  --color-primary-hover: #1d4ed8;
+
+  --blue-bg: #f0f7ff;
+  --blue-border: #e0f2fe;
+  --blue-text: #0369a1;
+  --purple-bg: #faf5ff;
+  --purple-border: #f3e8ff;
+  --purple-text: #6b21a8;
+  --teal-bg: #f0fdf4;
+  --teal-border: #dcfce7;
+  --teal-text: #166534;
+  --amber-bg: #fffbeb;
+  --amber-border: #fef3c7;
+  --amber-text: #92400e;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-app);
+  color: var(--text-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-family: inherit;
+}

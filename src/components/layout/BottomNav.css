@@ -1,0 +1,40 @@
+.nav-bottom {
+  display: flex;
+  border-top: 1px solid #f1f5f9;
+  background: #ffffff;
+  padding: 6px 0;
+}
+
+.nav-btn {
+  flex: 1;
+  padding: 8px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all 0.15s;
+}
+
+.nav-btn svg {
+  color: var(--text-light);
+  transition: all 0.15s;
+}
+
+.nav-btn.active {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.nav-btn.active svg {
+  color: var(--color-primary);
+}
+
+.nav-btn:hover {
+  color: var(--text-primary);
+}

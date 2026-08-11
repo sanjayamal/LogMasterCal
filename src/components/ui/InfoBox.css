@@ -1,0 +1,29 @@
+.rule-box {
+  background: var(--amber-bg);
+  border-left: 4px solid #f59e0b;
+  padding: 12px 14px;
+  border-radius: 4px var(--border-radius-md) var(--border-radius-md) 4px;
+}
+.rule-box p {
+  font-size: 13.5px;
+  color: var(--amber-text);
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.tip-box {
+  background: var(--teal-bg);
+  border-left: 4px solid #10b981;
+  padding: 12px 14px;
+  border-radius: 4px var(--border-radius-md) var(--border-radius-md) 4px;
+}
+.tip-box p {
+  font-size: 13.5px;
+  color: var(--teal-text);
+  line-height: 1.5;
+  font-weight: 500;
+}
+.tip-box p svg {
+  vertical-align: -3px;
+  margin-right: 2px;
+}

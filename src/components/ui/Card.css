@@ -1,0 +1,74 @@
+.card {
+  background: var(--bg-card);
+  border: 1px solid #e2e8f0;
+  border-radius: var(--border-radius-lg);
+  padding: 16px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.05);
+}
+
+.card-blue {
+  background: var(--blue-bg);
+  border-color: var(--blue-border);
+  color: var(--blue-text);
+}
+.card-purple {
+  background: var(--purple-bg);
+  border-color: var(--purple-border);
+  color: var(--purple-text);
+}
+.card-teal {
+  background: var(--teal-bg);
+  border-color: var(--teal-border);
+  color: var(--teal-text);
+}
+.card-amber {
+  background: var(--amber-bg);
+  border-color: var(--amber-border);
+  color: var(--amber-text);
+}
+
+.label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 6px;
+  color: var(--text-secondary);
+}
+.card-blue .label {
+  color: var(--blue-text);
+}
+.card-purple .label {
+  color: var(--purple-text);
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+.card-blue .title {
+  color: var(--blue-text);
+}
+.card-purple .title {
+  color: var(--purple-text);
+}
+.card-teal .title {
+  color: var(--teal-text);
+}
+.card-amber .title {
+  color: var(--amber-text);
+}
+
+.subtitle {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+.card-blue .subtitle,
+.card-purple .subtitle {
+  color: inherit;
+  opacity: 0.85;
+}

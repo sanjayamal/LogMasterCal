@@ -1,0 +1,31 @@
+.welcome-hero {
+  background: linear-gradient(135deg, #eff6ff 0%, #faf5ff 100%);
+  padding: 34px 20px;
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0;
+  position: relative;
+}
+.app-logo {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-radius: var(--border-radius-lg);
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+.welcome-hero h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 4px;
+  letter-spacing: -0.02em;
+}
+.welcome-hero p {
+  font-size: 14px;
+  color: #4b5563;
+  font-weight: 500;
+}
